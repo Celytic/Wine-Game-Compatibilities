@@ -50,7 +50,7 @@ Game works fine using the installer under Lutris for Origin and DXVK setup (usin
 
     sudo setcap cap_net_raw=epi /bin/wineserver
     
-In other words, game runs fine, however Punkbuster is a bit iffy. You will have to mess with it (potentially reinstall in the process) to get it working.\
+In other words, game runs fine, however Punkbuster is a bit iffy. You will have to mess with it (potentially reinstall in the process) to get it working. If playing in windowed, you will get kicked by Punkbuster for an error if you mess with window size too much. Just stay in fullscreen, it'll save you a headache.
  
 # Games that I know will not work due to anticheat or other odd dependencies (will update):
 - MapleStory
