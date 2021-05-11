@@ -41,6 +41,28 @@ It ran fine, only issue I had was that I needed CoD4x to play just about any ser
 # Call of Duty: World at War
 Game wouldn't let me make a profile to play, so there isn't much testing I've done. May try it under WineSteam to see how it runs.
 
+# Games that I know will not work due to anticheat or other odd dependencies (will update):
+- MapleStory
+- Phantasy Star Online 2
+- Destiny 2
+- Planetside 2
+- Tom Clancy's Rainbow Six Siege
+- Vindictus
+- Elsword
+- Dragon Nest
+- Black Desert Online
+- Apex Legends
+- Fortnite (I'm not testing this, don't even bother asking)
+- Paladins
+- Realm Royale
+- Call of Duty: Warzone (Modern Warfare 2019 included)
+- Call of Duty: Black Ops Cold War
+- Ring of Elysium
+- SoulWorker
+- TERA
+
+These games may be removed from the list in the future depending on if I either made a mistake on adding them, or if there's some new discoveries.
+
 # Games I installed that I need to test:
 
 - Battlefield 1
