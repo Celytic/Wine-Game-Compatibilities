@@ -9,7 +9,7 @@ This game has been really iffy. Using GloriousEggroll versions of Proton, I stil
 The normal launcher boots under the first Lutris installer script; you have to be in legacy, or else the launcher will be stuck on the game logo. Haven't tested the game yet. Open-source fast launcher encounters a rundll32 error, and will crash after some time downloading the game. No further testing or tweaks done; all on Lutris 6.2 x64
 
 # osu!
-This runs fine; changed Wine version to 6.7-staging and still runs okay; has some random crashes here and there, but is still very playable. DXVK and FSync recommended; having ThePoon's audio latency patch helps as well. Offset is all up to the PC, but usually negative helps; audio compatibility mode doesn't seem needed for me, although I have yet to further test to see if it stops the crashes. Input latency is much lower here.
+This runs fine; changed Wine version to 6.7-staging and still runs okay; has some random crashes here and there, but is still very playable. DXVK and FSync recommended; having ThePoon's audio latency patch helps as well. Offset is all up to the PC, but usually negative helps; audio compatibility mode doesn't seem needed for me, although I have yet to further test to see if it stops the crashes. Input latency is much lower here. If you're going to use a tablet, OpenTabletDriver is your best bet; tested on a Gaomon S620 and a XP-Pen G640 rev B.
 
 # Overwatch
 Lutris script installs Battle.net, which has some weird graphical issues I haven't really sorted out. DXVK and FSync used; game installs fine. You have to let the game generate shader cache to get it to run properly; otherwise, game works perfectly fine for me.
