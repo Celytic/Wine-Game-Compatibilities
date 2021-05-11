@@ -41,6 +41,17 @@ It ran fine, only issue I had was that I needed CoD4x to play just about any ser
 # Call of Duty: World at War
 Game wouldn't let me make a profile to play, so there isn't much testing I've done. May try it under WineSteam to see how it runs.
 
+# Battlefield 4
+Game works fine using the installer under Lutris for Origin and DXVK setup (using Wine 6.8-staging). You will need to run the following commands to get ping working in game, otherwise you will get kicked from any server:
+
+    sudo setcap cap_net_raw=epi /bin/wine-preloader
+
+    sudo setcap cap_net_raw=epi /bin/wine64-preloader
+
+    sudo setcap cap_net_raw=epi /bin/wineserver
+    
+In other words, game runs fine, however Punkbuster is a bit iffy. You will have to mess with it (potentially reinstall in the process) to get it working.\
+ 
 # Games that I know will not work due to anticheat or other odd dependencies (will update):
 - MapleStory
 - Phantasy Star Online 2
@@ -66,7 +77,6 @@ These games may be removed from the list in the future depending on if I either 
 # Games I installed that I need to test:
 
 - Battlefield 1
-- Battlefield 4
 - Ni No Kuni: Wrath of the White Witch Remastered
 - Fe
 - Tales of Berseria
