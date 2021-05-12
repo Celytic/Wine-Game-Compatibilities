@@ -53,7 +53,10 @@ Game works fine using the installer under Lutris for Origin and DXVK setup (usin
 To boot the game via Battlelog, you have to spoof your active user agent in your web browser to be that of a Windows version, otherwise, Battlelog will say that you do not have the game installed.
 
 After some further testing, it seems that this will not work on the latest version of wine-staging at the time of writing (6.8), because PB will kick you for a packet flow error. Not too much to deal with here; game runs fine. If you encounter this error, try installing any VCRedist installer you can into the prefix. You can find all-in-one installers online.    
-    
+
+# Heroes and Generals
+No matter what Proton or Wine version you use, upon starting the game, you will receive an error, stating: "Please start the game through Steam." This isn't anything new, and has been going on for over two years. This isn't working, and I saw that it uses BattleEye, which probably explains this.
+
 # Games that I know will not work due to anticheat or other odd dependencies (will update):
 - MapleStory
 - Phantasy Star Online 2
