@@ -50,6 +50,8 @@ Game works fine using the installer under Lutris for Origin and DXVK setup (usin
 
     sudo setcap cap_net_raw=epi /path/to/lutris/wineserver
     
+To boot the game via Battlelog, you have to spoof your active user agent in your web browser to be that of a Windows version, otherwise, Battlelog will say that you do not have the game installed.
+
 After some further testing, it seems that this will not work on the latest version of wine-staging at the time of writing (6.8), because PB will kick you for a packet flow error. Not too much to deal with here; game runs fine. If you encounter this error, try installing any VCRedist installer you can into the prefix. You can find all-in-one installers online.    
     
 # Games that I know will not work due to anticheat or other odd dependencies (will update):
