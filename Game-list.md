@@ -42,16 +42,16 @@ It ran fine, only issue I had was that I needed CoD4x to play just about any ser
 Game wouldn't let me make a profile to play, so there isn't much testing I've done. May try it under WineSteam to see how it runs.
 
 # Battlefield 4
-Game works fine using the installer under Lutris for Origin and DXVK setup (using Wine 6.8-staging). You will need to run the following commands to get ping working in game, otherwise you will get kicked from any server:
+Game works fine using the installer under Lutris for Origin and DXVK setup (using default Lutris-6.1 prefix). You will need to run the following commands to get ping working in game, otherwise you will get kicked from any server:
 
-    sudo setcap cap_net_raw=epi /bin/wine-preloader
+    sudo setcap cap_net_raw=epi /path/to/lutris/wine-preloader
 
-    sudo setcap cap_net_raw=epi /bin/wine64-preloader
+    sudo setcap cap_net_raw=epi /path/to/wine64-preloader
 
-    sudo setcap cap_net_raw=epi /bin/wineserver
+    sudo setcap cap_net_raw=epi /path/to/wineserver
     
-In other words, game runs fine, however Punkbuster is a bit iffy. You will have to mess with it (potentially reinstall in the process) to get it working. If playing in windowed, you will get kicked by Punkbuster for an error if you mess with window size too much. Just stay in fullscreen, it'll save you a headache.
- 
+After some further testing, it seems that this will not work on the latest version of wine-staging at the time of writing (6.8), because PB will kick you for a packet flow error. Not too much to deal with here; game runs fine. If you encounter this error, try installing any VCRedist installer you can into the prefix. You can find all-in-one installers online.    
+    
 # Games that I know will not work due to anticheat or other odd dependencies (will update):
 - MapleStory
 - Phantasy Star Online 2
