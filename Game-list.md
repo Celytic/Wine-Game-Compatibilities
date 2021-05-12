@@ -46,9 +46,9 @@ Game works fine using the installer under Lutris for Origin and DXVK setup (usin
 
     sudo setcap cap_net_raw=epi /path/to/lutris/wine-preloader
 
-    sudo setcap cap_net_raw=epi /path/to/wine64-preloader
+    sudo setcap cap_net_raw=epi /path/to/lutris/wine64-preloader
 
-    sudo setcap cap_net_raw=epi /path/to/wineserver
+    sudo setcap cap_net_raw=epi /path/to/lutris/wineserver
     
 After some further testing, it seems that this will not work on the latest version of wine-staging at the time of writing (6.8), because PB will kick you for a packet flow error. Not too much to deal with here; game runs fine. If you encounter this error, try installing any VCRedist installer you can into the prefix. You can find all-in-one installers online.    
     
