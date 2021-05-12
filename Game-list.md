@@ -37,6 +37,7 @@ This runs fine. No tweaks needed.
 
 # Call of Duty 4: Modern Warfare
 It ran fine, only issue I had was that I needed CoD4x to play just about any server. Haven't installed it to try it out, there should be some servers that will auto install it for you.
+UPDATE: If you connect to a server running CoD4x, you will get an error telling you to log into Steam before connecting. So, in this case, the game is kinda borked.
 
 # Call of Duty: World at War
 Game wouldn't let me make a profile to play, so there isn't much testing I've done. May try it under WineSteam to see how it runs.
