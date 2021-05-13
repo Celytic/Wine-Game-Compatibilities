@@ -1,6 +1,8 @@
 # Note about this list
 This isn't meant to be a replacement for ProtonDB or any site that measures performance under specific games. This is meant solely to show my experiences on getting a game working. I will update this list as I either experiment more, or try different games out.
 
+# Roblox
+At the request of SleepyZaddo, I took a look at Roblox. Due to some anticheat measures they have in the client, Roblox Player will not open. Roblox Studio will, though. All in an attempt to get Robeats working :^)
 
 # Call of Duty: WWII
 This game has been really iffy. Using GloriousEggroll versions of Proton, I still can't get the game to boot; splash screen and then crashes, sometimes just nothing. Disabling ESync and FSync doesn't help in this case. However, I was able to get the game to boot using the WineSteam runner in Lutris under Wine-staging 6.7. No further testing has been done.
