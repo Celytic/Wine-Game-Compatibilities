@@ -1,6 +1,12 @@
 # Note about this list
 This isn't meant to be a replacement for ProtonDB or any site that measures performance under specific games. This is meant solely to show my experiences on getting a game working. I will update this list as I either experiment more, or try different games out.
 
+# Etterna
+There's a native Linux build you can compile yourself on your respective distro; I'm using Arch, and there does happen to be an AUR package that is maintained, but needs updating as it is borked at the moment. Currently if you build using the etterna package, you will get this:
+![image](https://user-images.githubusercontent.com/83994731/118196140-1c2c2c00-b412-11eb-81e3-5aa6a72960a6.png)
+
+Mentioned it in the Etterna discord, will update when I have more info.
+
 # Roblox
 At the request of SleepyZaddo, I took a look at Roblox. Due to some anticheat measures they have in the client, Roblox Player will not open. Roblox Studio will, though. All in an attempt to get Robeats working :^)
 
