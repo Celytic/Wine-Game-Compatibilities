@@ -1,6 +1,9 @@
 # Note about this list
 This isn't meant to be a replacement for ProtonDB or any site that measures performance under specific games. This is meant solely to show my experiences on getting a game working. I will update this list as I either experiment more, or try different games out.
 
+# Overcooked! All You Can Eat
+This works perfectly out of the box with Proton; played it with my girlfriend for about an hour or so with absolutely no problems. 
+
 # Etterna
 There's a native Linux build you can compile yourself on your respective distro; I'm using Arch, and there does happen to be an AUR package that is maintained, but needs updating as it is borked at the moment. Currently if you build using the etterna package, you will get this:
 ![image](https://user-images.githubusercontent.com/83994731/118196140-1c2c2c00-b412-11eb-81e3-5aa6a72960a6.png)
@@ -12,6 +15,7 @@ At the request of SleepyZaddo, I took a look at Roblox. Due to some anticheat me
 
 # Call of Duty: WWII
 This game has been really iffy. Using GloriousEggroll versions of Proton, I still can't get the game to boot; splash screen and then crashes, sometimes just nothing. Disabling ESync and FSync doesn't help in this case. However, I was able to get the game to boot using the WineSteam runner in Lutris under Wine-staging 6.7. No further testing has been done.
+Update: the game has booted using Proton 6.8-GE-1. After selecting an option in the menu, the game will be stuck on a loading screen. No further testing yet done. (16th of May, 2021)
 
 # Final Fantasy XIV
 The normal launcher boots under the first Lutris installer script; you have to be in legacy, or else the launcher will be stuck on the game logo. Haven't tested the game yet. Open-source fast launcher encounters a rundll32 error, and will crash after some time downloading the game. No further testing or tweaks done; all on Lutris 6.2 x64
