@@ -15,7 +15,10 @@ At the request of SleepyZaddo, I took a look at Roblox. Due to some anticheat me
 
 # Call of Duty: WWII
 This game has been really iffy. Using GloriousEggroll versions of Proton, I still can't get the game to boot; splash screen and then crashes, sometimes just nothing. Disabling ESync and FSync doesn't help in this case. However, I was able to get the game to boot using the WineSteam runner in Lutris under Wine-staging 6.7. No further testing has been done.
+
 Update: the game has booted using Proton 6.8-GE-1. After selecting an option in the menu, the game will be stuck on a loading screen. No further testing yet done. (16th of May, 2021)
+
+Update #2: Disabling Esync allows you to get through the menus. Loaded into a private match and was some stutter; although shader caching was turned off in game. More testing needs to be done, but looks promising.
 
 # Final Fantasy XIV
 The normal launcher boots under the first Lutris installer script; you have to be in legacy, or else the launcher will be stuck on the game logo. Haven't tested the game yet. Open-source fast launcher encounters a rundll32 error, and will crash after some time downloading the game. No further testing or tweaks done; all on Lutris 6.2 x64
