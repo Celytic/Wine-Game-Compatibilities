@@ -2,7 +2,7 @@
 This isn't meant to be a replacement for ProtonDB or any site that measures performance under specific games. This is meant solely to show my experiences on getting a game working. I will update this list as I either experiment more, or try different games out.
 
 # Genshin Impact
-Launcher runs, although you do have to install the game in the container folders; I couldn't store it on my storage drive. Game will be tested as soon as it's downloaded.
+Launcher runs, although you do have to install the game in the container folders; I couldn't store it on my storage drive. Game will be tested as soon as it's downloaded. Game does not launch from launcher, presuming due to some anticheat stuff. I'll come back to this another time, but it seems borked.
 
 # Overcooked! All You Can Eat
 This works perfectly out of the box with Proton; played it with my girlfriend for about an hour or so with absolutely no problems. 
@@ -11,7 +11,7 @@ This works perfectly out of the box with Proton; played it with my girlfriend fo
 There's a native Linux build you can compile yourself on your respective distro; I'm using Arch, and there does happen to be an AUR package that is maintained, but needs updating as it is borked at the moment. Currently if you build using the etterna package, you will get this:
 ![image](https://user-images.githubusercontent.com/83994731/118196140-1c2c2c00-b412-11eb-81e3-5aa6a72960a6.png)
 
-Mentioned it in the Etterna discord, will update when I have more info.
+AUR build is fixed for any Arch users; otherwise you will have to compile it yourself.
 
 # Roblox
 At the request of SleepyZaddo, I took a look at Roblox. Due to some anticheat measures they have in the client, Roblox Player will not open. Roblox Studio will, though. All in an attempt to get Robeats working :^)
@@ -95,7 +95,7 @@ No matter what Proton or Wine version you use, upon starting the game, you will 
 - Ring of Elysium
 - SoulWorker
 - TERA
-
+- Genshin Impact (this may change in the future)
 These games may be removed from the list in the future depending on if I either made a mistake on adding them, or if there's some new discoveries.
 
 # Games I installed that I need to test:
