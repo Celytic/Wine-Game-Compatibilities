@@ -1,6 +1,9 @@
 # Note about this list
 This isn't meant to be a replacement for ProtonDB or any site that measures performance under specific games. This is meant solely to show my experiences on getting a game working. I will update this list as I either experiment more, or try different games out.
 
+# Project Project Dxxx
+This is a Project Diva sim, for those who don't know. You will get a "failed to load video" error when selecting a song, which in turn, prevents you from playing any song. Game isn't working on any version of Wine because of this error, and unfortunately, I'm not aware of any fixes at the time of writing this.
+
 # Pandemic Love
 This is the only VN on this list, since I ended up playing it on stream. Works right out of the box with Proton, no issues.
 
