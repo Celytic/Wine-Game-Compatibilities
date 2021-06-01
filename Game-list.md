@@ -1,6 +1,15 @@
 # Note about this list
 This isn't meant to be a replacement for ProtonDB or any site that measures performance under specific games. This is meant solely to show my experiences on getting a game working. I will update this list as I either experiment more, or try different games out.
 
+# Pandemic Love
+This is the only VN on this list, since I ended up playing it on stream. Works right out of the box with Proton, no issues.
+
+# Trailmakers
+I've played a few hours of this with my girlfriend on latest Proton; zero performance issues, runs fine.
+
+# SoulWorker
+Anticheat throws an error using Wine. Yeah, not happening. ;3;
+
 # Genshin Impact
 Launcher runs, although you do have to install the game in the container folders; I couldn't store it on my storage drive. Game will be tested as soon as it's downloaded. Game does not launch from launcher, presuming due to some anticheat stuff. I'll come back to this another time, but it seems borked.
 
@@ -93,9 +102,7 @@ No matter what Proton or Wine version you use, upon starting the game, you will 
 - Call of Duty: Warzone (Modern Warfare 2019 included)
 - Call of Duty: Black Ops Cold War
 - Ring of Elysium
-- SoulWorker
 - TERA
-- Genshin Impact (this may change in the future)
 These games may be removed from the list in the future depending on if I either made a mistake on adding them, or if there's some new discoveries.
 
 # Games I installed that I need to test:
