@@ -27,6 +27,7 @@ AUR build is fixed for any Arch users; otherwise you will have to compile it you
 
 # Roblox
 At the request of SleepyZaddo, I took a look at Roblox. Due to some anticheat measures they have in the client, Roblox Player will not open. Roblox Studio will, though. All in an attempt to get Robeats working :^)
+Update: As of this writing (20th of June 2021) there has been a patch merged into Wine 6.11 that now allows you to use Roblox Player. It's not perfect, but it runs now. I don't have the details, but for more info please check out Roblox on Linux wiki page. It's an easy search, and I'm not embedding the link at the moment.
 
 # Call of Duty: WWII
 This game has been really iffy. Using GloriousEggroll versions of Proton, I still can't get the game to boot; splash screen and then crashes, sometimes just nothing. Disabling ESync and FSync doesn't help in this case. However, I was able to get the game to boot using the WineSteam runner in Lutris under Wine-staging 6.7. No further testing has been done.
@@ -39,7 +40,7 @@ Update #2: Disabling Esync allows you to get through the menus. Loaded into a pr
 The normal launcher boots under the first Lutris installer script; you have to be in legacy, or else the launcher will be stuck on the game logo. Haven't tested the game yet. Open-source fast launcher encounters a rundll32 error, and will crash after some time downloading the game. No further testing or tweaks done; all on Lutris 6.2 x64
 
 # osu!
-This runs fine; changed Wine version to 6.7-staging and still runs okay; has some random crashes here and there, but is still very playable. DXVK and FSync recommended; having ThePoon's audio latency patch helps as well. Offset is all up to the PC, but usually negative helps; audio compatibility mode doesn't seem needed for me, although I have yet to further test to see if it stops the crashes. Input latency is much lower here. If you're going to use a tablet, OpenTabletDriver is your best bet; tested on a Gaomon S620, a XP-Pen G640 rev B, and a Wacom CTH-680.
+This runs fine; changed Wine version to 6.7-staging and still runs okay; has some random crashes here and there, but is still very playable. DXVK and FSync recommended; having ThePoon's audio latency patch helps as well. Offset is all up to the PC, but usually negative helps; audio compatibility mode doesn't seem needed for me, although I have yet to further test to see if it stops the crashes. Input latency is much lower here. If you're going to use a tablet, OpenTabletDriver is your best bet; tested on a Gaomon S620, a XP-Pen G640 rev B, and a Wacom CTH-680. If you're on a high refresh rate monitor, make sure you disable compositing in your DE so the game will not cap the visual framerate.
 
 # Overwatch
 Lutris script installs Battle.net, which has some weird graphical issues I haven't really sorted out. DXVK and FSync used; game installs fine. You have to let the game generate shader cache to get it to run properly; otherwise, game works perfectly fine for me.
