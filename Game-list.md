@@ -46,7 +46,7 @@ This runs fine; changed Wine version to 6.7-staging and still runs okay; has som
 Lutris script installs Battle.net, which has some weird graphical issues I haven't really sorted out. DXVK and FSync used; game installs fine. You have to let the game generate shader cache to get it to run properly; otherwise, game works perfectly fine for me.
 
 # Battlefield V 
-Lutris script does the trick; installs Origin, and you have to download the game yourself. The game will stutter on first map load for caching. After that's taken care of, should run fine. Essentially, it's like DX12 in Windows 10. Just leave it in DX11; you'll save a headache, and a performance increase. Game runs better in Linux than Windows from my testing, and plays very well. 
+Lutris script does the trick; installs Origin, and you have to download the game yourself. The game will stutter on first map load for caching. After that's taken care of, should run fine. Essentially, it's like DX12 in Windows 10. Just leave it in DX11; you'll save a headache, and a performance increase. Game runs better in Linux than Windows from my testing, and plays very well. I will not be testing this game any further. In memory of Devin.
 
 # Path of Exile
 Runs right out of the box on latest Proton version; nothing else to be said. Vulkan is probably ideal since you'll be translating DX to Vulkan under DX11.
