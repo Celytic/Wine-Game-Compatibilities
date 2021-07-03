@@ -1,6 +1,18 @@
 # Note about this list
 This isn't meant to be a replacement for ProtonDB or any site that measures performance under specific games. This is meant solely to show my experiences on getting a game working. I will update this list as I either experiment more, or try different games out.
 
+# The Elder Scrolls V: Skyrim Special Edition
+Game will run fine under Proton, but don't expect to get mods working. 
+
+# Doom (2016)
+Game works right out of the box (it's whitelisted with Proton), just go into settings and change the renderer to Vulkan.
+
+# Battlefield 1
+This is about the same as Battlefield V, in the sense that you have to play through maps to get DXVK shader cache going, otherwise it works perfectly fine.
+
+# Call of Duty: Black Ops III
+This game works okay with Proton, however you will need to rename (or delete, your call) any video folders for the game in order to do anything; this also applies for Workshop content. Game runs fairly well.
+
 # Project Project Dxxx
 This is a Project Diva sim, for those who don't know. You will get a "failed to load video" error when selecting a song, which in turn, prevents you from playing any song. Game isn't working on any version of Wine because of this error, and unfortunately, I'm not aware of any fixes at the time of writing this.
 
@@ -28,6 +40,7 @@ AUR build is fixed for any Arch users; otherwise you will have to compile it you
 # Roblox
 At the request of SleepyZaddo, I took a look at Roblox. Due to some anticheat measures they have in the client, Roblox Player will not open. Roblox Studio will, though. All in an attempt to get Robeats working :^)
 Update: As of this writing (20th of June 2021) there has been a patch merged into Wine 6.11 that now allows you to use Roblox Player. It's not perfect, but it runs now. I don't have the details, but for more info please check out Roblox on Linux wiki page. It's an easy search, and I'm not embedding the link at the moment.
+Update 2: After running through tests, the best way to run this is to use Grapejuice with Wine 6.11. For the best performance, go into the FFlag editor and enable "FFlagDebugGraphicsPreferVulkan" which will force the game to run under Vulkan. For the FPS unlocker, download the executable for it, and open Wine Explorer and run it through there. Game is working now.
 
 # Call of Duty: WWII
 This game has been really iffy. Using GloriousEggroll versions of Proton, I still can't get the game to boot; splash screen and then crashes, sometimes just nothing. Disabling ESync and FSync doesn't help in this case. However, I was able to get the game to boot using the WineSteam runner in Lutris under Wine-staging 6.7. No further testing has been done.
@@ -59,6 +72,7 @@ Game runs fine; although I had some issues with text on my first launch. A reboo
 
 # uno!
 Ubisoft's launcher makes this a royal pain in the ass; their servers were having issues at the time, but I have yet to test the game. Will update when I have more.
+UPDATE: You can run this if you install Ubisoft Connect (UPlay, whatever) but if you go into a multiplayer game, you will crash your game and freeze everyone else's games. (Sorry, Matt.)
 
 # Call of Duty: Infinite Warfare
 I used Glorious Eggroll's Proton 6. Cancel shader caching; you'll be there all fucking night, and it won't do much from my testing. Only have tested Zombies in Spaceland, but it ran fine after the map was loaded in for a minute or so. Still more to test.
@@ -71,7 +85,8 @@ It ran fine, only issue I had was that I needed CoD4x to play just about any ser
 UPDATE: If you connect to a server running CoD4x, you will get an error telling you to log into Steam before connecting. So, in this case, the game is kinda borked.
 
 # Call of Duty: World at War
-Game wouldn't let me make a profile to play, so there isn't much testing I've done. May try it under WineSteam to see how it runs.
+Game wouldn't let me make a profile to play, so there isn't much testing I've done. May try it under WineSteam to see how it runs. 
+UPDATE: will need to try Plutonium, as apparently this is the best way.
 
 # Battlefield 4
 Game works fine using the installer under Lutris for Origin and DXVK setup (using default Lutris-6.1 prefix). You will need to run the following commands to get ping working in game, otherwise you will get kicked from any server:
@@ -111,7 +126,6 @@ These games may be removed from the list in the future depending on if I either 
 
 # Games I installed that I need to test:
 
-- Battlefield 1
 - Ni No Kuni: Wrath of the White Witch Remastered
 - Fe
 - Tales of Berseria
@@ -119,7 +133,6 @@ These games may be removed from the list in the future depending on if I either 
 
 # Games I may test in the future:
 - Battlefield Hardline
-- DOOM (2016)
 - Horizon Zero Dawn
 - I am Bread (god help me now)
 - Metal Gear Rising: Revengeance
@@ -127,10 +140,8 @@ These games may be removed from the list in the future depending on if I either 
 - Quake Champions
 - Secret World Legends
 - The Elder Scrolls IV: Oblivion
-- The Elder Scrolls V: Skyrim Special Edition
 - Touhou Endless Dream
 - Call of Duty: Black Ops II
-- Call of Duty: Black Ops III
 - AdventureQuest 3D
 
 # If there's any games you'd like to see me test, please DM me on Twitter @katja_iikosu
