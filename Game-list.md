@@ -39,7 +39,9 @@ AUR build is fixed for any Arch users; otherwise you will have to compile it you
 
 # Roblox
 At the request of SleepyZaddo, I took a look at Roblox. Due to some anticheat measures they have in the client, Roblox Player will not open. Roblox Studio will, though. All in an attempt to get Robeats working :^)
+
 Update: As of this writing (20th of June 2021) there has been a patch merged into Wine 6.11 that now allows you to use Roblox Player. It's not perfect, but it runs now. I don't have the details, but for more info please check out Roblox on Linux wiki page. It's an easy search, and I'm not embedding the link at the moment.
+
 Update 2: After running through tests, the best way to run this is to use Grapejuice with Wine 6.11. For the best performance, go into the FFlag editor and enable "FFlagDebugGraphicsPreferVulkan" which will force the game to run under Vulkan. For the FPS unlocker, download the executable for it, and open Wine Explorer and run it through there. Game is working now.
 
 # Call of Duty: WWII
@@ -72,6 +74,7 @@ Game runs fine; although I had some issues with text on my first launch. A reboo
 
 # uno!
 Ubisoft's launcher makes this a royal pain in the ass; their servers were having issues at the time, but I have yet to test the game. Will update when I have more.
+
 UPDATE: You can run this if you install Ubisoft Connect (UPlay, whatever) but if you go into a multiplayer game, you will crash your game and freeze everyone else's games. (Sorry, Matt.)
 
 # Call of Duty: Infinite Warfare
@@ -82,10 +85,12 @@ This runs fine. No tweaks needed.
 
 # Call of Duty 4: Modern Warfare
 It ran fine, only issue I had was that I needed CoD4x to play just about any server. Haven't installed it to try it out, there should be some servers that will auto install it for you.
+
 UPDATE: If you connect to a server running CoD4x, you will get an error telling you to log into Steam before connecting. So, in this case, the game is kinda borked.
 
 # Call of Duty: World at War
 Game wouldn't let me make a profile to play, so there isn't much testing I've done. May try it under WineSteam to see how it runs. 
+
 UPDATE: will need to try Plutonium, as apparently this is the best way.
 
 # Battlefield 4
