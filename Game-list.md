@@ -108,6 +108,10 @@ Loaded up game and performance seems to be really good; no complaints on my end.
 # Metro Exodus Enhanced Edition
 Game black screens and you can't get any further; not sure if a Wine dependency issue; for now, use the native Linux port on Steam, considering DLSS won't be integrated via Wine until the new Nvidia driver in the fall.
 
+# Old School Runescape
+Why are you trying to run this over Proton? Just use RuneLite; it'll save you a headache and has some nice QoL features built in.
+
+
 # Current list of games that I'm going to test (will be updated)
 - Spongebob Squarepants: Battle for Bikini Bottom Rehydrated
 - A Hat in Time
