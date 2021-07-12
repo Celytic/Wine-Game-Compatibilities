@@ -3,6 +3,9 @@ This list exists purely for documentation of getting Windows games (or attemptin
 
 # If you would like me to test a game, submit an issue ticket and I will check the game out.
 
+# CastleMiner Z
+Game seems to run without issues; framerate is capped at 60. Not too much to report, game seems to work okay in offline singleplayer; haven't tested it in multiplayer; may add that later.
+
 # The Elder Scrolls V: Skyrim Special Edition
 Game will run fine under Proton, but don't expect to get mods working.
 
