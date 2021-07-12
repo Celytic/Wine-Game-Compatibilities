@@ -105,6 +105,8 @@ This game runs without issues; played with friends with little to no issues.
 # TrackMania Nations Forever
 This game seems to work, however I haven't really played it much to confirm this.
 
+# Metro Exodus Enhanced Edition
+Game black screens and you can't get any further; not sure if a Wine dependency issue; for now, use the native Linux port on Steam, considering DLSS won't be integrated via Wine until the new Nvidia driver in the fall.
 
 # Current list of games that I'm going to test (will be updated)
 - Spongebob Squarepants: Battle for Bikini Bottom Rehydrated
