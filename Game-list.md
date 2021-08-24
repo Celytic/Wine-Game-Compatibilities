@@ -64,8 +64,16 @@ Alternatively, you could follow a guide over at https://osu.ppy.sh/community/for
 Lutris script installs Battle.net, which has some weird graphical issues I haven't really sorted out. DXVK and FSync used; game installs fine. You have to let the game generate shader cache to get it to run properly; otherwise, game works perfectly fine for me.
 
 # Battlefield V 
-Usual precaching with Vulkan, even under DX11. Once you play a round on all maps, it should be fine. Alternatively, you can configure DXVK to use async using DXVK_ASYNC=1 to help with this.
-This was a game I played with my friend Devin (Clickyzz), who passed away in a car accident in May of 2021. I miss you, buddy. In honor of him.
+Usual precaching with Vulkan, even under DX11. Once you play a round on all maps, it should be fine. Alternatively, you can configure DXVK to use async using the following:
+
+    DXVK_ASYNC=1
+Alternatively, if you're using an Nvidia GPU, adding this should help with it a bit as well.
+ 
+    __GL_SHADER_DISK_CACHE_SKIP_CLEANUP=1
+    
+FSR also works with this as well. Game will be a bit slower than usual until shaders are finished caching (usually play a round or two on each map), and then you should be okay.
+
+This was a game I played with my friend Devin (Clickyzz), who passed away in a car accident in May of 2021. I miss you, buddy.
 
 # Path of Exile
 Runs right out of the box on latest Proton version; nothing else to be said. Vulkan is probably ideal since you'll be translating DX to Vulkan under DX11.
