@@ -3,6 +3,12 @@ This list exists purely for documentation of getting Windows games (or attemptin
 
 # If you would like me to test a game, submit an issue ticket and I will check the game out.
 
+# The Greatest Penguin Heist of All Time
+Penguins. Runs native, game is jank as hell and a lot of fun.
+
+# Titanfall 2
+Use the Lutris script to install it and let it cache shaders just like Overwatch; game will work fine and play well.
+
 # CastleMiner Z
 Game seems to run without issues; framerate is capped at 60. Not too much to report, game seems to work okay in offline singleplayer; haven't tested it in multiplayer; may add that later.
 
@@ -52,18 +58,20 @@ The normal launcher boots under the first Lutris installer script; you have to b
 # osu!
 Set this up with Lutris and use ThePoon's audio latency patch; if you're having audio distortion, enable Pulseaudio Low Latency in Lutris to fix it. Game works fine; if you're using a tablet, your best bet is to set up OpenTabletDriver, which you can go on their page for that; it isn't anything I contribute to.
 
+Alternatively, you could follow a guide over at https://osu.ppy.sh/community/forums/topics/1248084?n=1 which uses Pipewire and an install script to set up osu! with better latency.
+
 # Overwatch
 Lutris script installs Battle.net, which has some weird graphical issues I haven't really sorted out. DXVK and FSync used; game installs fine. You have to let the game generate shader cache to get it to run properly; otherwise, game works perfectly fine for me.
 
 # Battlefield V 
-Usual precaching with Vulkan, even under DX11. Once you play a round on all maps, it should be fine.
+Usual precaching with Vulkan, even under DX11. Once you play a round on all maps, it should be fine. Alternatively, you can configure DXVK to use async using DXVK_ASYNC=1 to help with this.
 This was a game I played with my friend Devin (Clickyzz), who passed away in a car accident in May of 2021. I miss you, buddy. In honor of him.
 
 # Path of Exile
 Runs right out of the box on latest Proton version; nothing else to be said. Vulkan is probably ideal since you'll be translating DX to Vulkan under DX11.
 
 # Cyberpunk 2077
-Got to the menu on this; haven't tested further. Menu feels fine so far, although I do know that ray tracing will not work under DXVK, be warned. Was going to install control tweaks before I tested further; will update later.
+Game seems to run fine; seems to be some graphical glitches that I'm currently chocking up to the game being on an HDD instead of an SSD; will move the game over to my SSD to test later. Tested using Proton-GE 6.14
 
 # Puyo Puyo Tetris 2
 Game runs fine; although I had some issues with text on my first launch. A reboot fixed the issue. Latest Proton.
