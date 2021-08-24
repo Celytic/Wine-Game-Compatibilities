@@ -3,6 +3,12 @@ This list exists purely for documentation of getting Windows games (or attemptin
 
 # If you would like me to test a game, submit an issue ticket and I will check the game out.
 
+# Guild Wars 2
+Game plays fine; used Lutris script to install and play. Not a lot of testing, but will do more.
+
+# Swords of Legends Online
+To be filled; game boots and goes to main menu.
+
 # The Greatest Penguin Heist of All Time
 Penguins. Runs native, game is jank as hell and a lot of fun.
 
@@ -23,6 +29,7 @@ This is about the same as Battlefield V, in the sense that you have to play thro
 
 # Call of Duty: Black Ops III
 This game works okay with Proton, however you will need to rename (or delete, your call) any video folders for the game in order to do anything; this also applies for Workshop content. Game runs fairly well.
+EDIT: Supposedly, 
 
 # Project Project Dxxx
 This is a Project Diva sim, for those who don't know. You will get a "failed to load video" error when selecting a song, which in turn, prevents you from playing any song. Game isn't working on any version of Wine because of this error, and unfortunately, I'm not aware of any fixes at the time of writing this.
@@ -53,7 +60,7 @@ To get the most optimal performance, open the Roblox FFlag Editor, and enable FF
 Game is iffy, and isn't really working in Multiplayer the last time I tried it; will need to set stuff up.
 
 # Final Fantasy XIV
-The normal launcher boots under the first Lutris installer script; you have to be in legacy, or else the launcher will be stuck on the game logo. Haven't tested the game yet. Open-source fast launcher encounters a rundll32 error, and will crash after some time downloading the game. No further testing or tweaks done; all on Lutris 6.2 x64
+Game seems to work under XIVLauncher; official launcher seems to not work unless you use the legacy version. 
 
 # osu!
 Set this up with Lutris and use ThePoon's audio latency patch; if you're having audio distortion, enable Pulseaudio Low Latency in Lutris to fix it. Game works fine; if you're using a tablet, your best bet is to set up OpenTabletDriver, which you can go on their page for that; it isn't anything I contribute to.
