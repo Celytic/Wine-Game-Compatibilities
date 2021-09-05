@@ -3,6 +3,9 @@ This list exists purely for documentation of getting Windows games (or attemptin
 
 # If you would like me to test a game, submit an issue ticket and I will check the game out.
 
+# Flash Flash Revolution
+A relic of the mid 2000s; the R3 engine has an exe file that works perfectly out of the box using the newer versions of Wine; currently got it running via 6.16. Plays better than osu!mania and Quaver.
+
 # Guild Wars 2
 Game plays fine; used Lutris script to install and play. Not a lot of testing, but will do more.
 
