@@ -118,9 +118,11 @@ Game works fine using the installer under Lutris for Origin and DXVK setup (usin
 
     sudo setcap cap_net_raw=epi /path/to/lutris/wineserver
     
-If you're using a custom Wine version (staging or wine-tkg in my case), you can fine the preloaders and wineserver in /usr/bin
+If you're using a custom Wine version (staging or wine-tkg in my case), you can find the preloaders and wineserver in /usr/bin
 
 To boot the game via Battlelog, you have to spoof your active user agent in your web browser to be that of a Windows version, otherwise, Battlelog will say that you do not have the game installed; this is easily done using an extension for your browser of choice.
+
+I presume this applies to Battlefield Hardline as well, but I haven't gotten around to testing it yet, so can't say for sure.
 
 # Heroes and Generals
 No matter what Proton or Wine version you use, upon starting the game, you will receive an error, stating: "Please start the game through Steam." This isn't anything new, and has been going on for over two years. This isn't working, and I saw that it uses BattleEye, which probably explains this.
