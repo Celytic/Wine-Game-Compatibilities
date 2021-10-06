@@ -5,6 +5,51 @@ As of typing this update (6th of October 2021), EAC and Battleye now have Linux 
 
 # If you would like me to test a game, submit an issue ticket and I will check the game out.
 
+- [Flash Flash Revolution](#flash-flash-revolution)
+- [New World](#new-world)
+- [Dark Souls Remastered](#dark-souls-remastered)
+- [Guild Wars 2](#guild-wars-2)
+- [Swords of Legends Online](#swords-of-legends-online)
+- [The Greatest Penguin Heist of All Time](#the-greatest-penguin-heist-of-all-time)
+- [Titanfall 2](#titanfall-2)
+- [CastleMiner Z](#castleminer-z)
+- [The Elder Scrolls V: Skyrim Special Edition](#the-elder-scrolls-v--skyrim-special-edition)
+- [Doom (2016)](#doom--2016-)
+- [Battlefield 1](#battlefield-1)
+- [Call of Duty: Black Ops III](#call-of-duty--black-ops-iii)
+- [Project Project Dxxx](#project-project-dxxx)
+- [Pandemic Love](#pandemic-love)
+- [Trailmakers](#trailmakers)
+- [SoulWorker](#soulworker)
+- [Genshin Impact](#genshin-impact)
+- [Overcooked! All You Can Eat](#overcooked--all-you-can-eat)
+- [Etterna](#etterna)
+- [Roblox](#roblox)
+- [Call of Duty: WWII](#call-of-duty--wwii)
+- [Final Fantasy XIV](#final-fantasy-xiv)
+- [osu!](#osu-)
+- [Overwatch](#overwatch)
+- [Battlefield V](#battlefield-v)
+- [Path of Exile](#path-of-exile)
+- [Cyberpunk 2077](#cyberpunk-2077)
+- [Puyo Puyo Tetris 2](#puyo-puyo-tetris-2)
+- [uno!](#uno-)
+- [Call of Duty: Infinite Warfare](#call-of-duty--infinite-warfare)
+- [Among Us](#among-us)
+- [Call of Duty 4: Modern Warfare](#call-of-duty-4--modern-warfare)
+- [Call of Duty: World at War](#call-of-duty--world-at-war)
+- [Battlefield 4](#battlefield-4)
+- [Heroes and Generals](#heroes-and-generals)
+- [A Dance of Fire and Ice](#a-dance-of-fire-and-ice)
+- [Golf It!](#golf-it-)
+- [TrackMania Nations Forever](#trackmania-nations-forever)
+- [Metro Exodus Enhanced Edition](#metro-exodus-enhanced-edition)
+- [Old School Runescape](#old-school-runescape)
+- [Current list of games that I'm going to test (will be updated)](#current-list-of-games-that-i-m-going-to-test--will-be-updated-)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
+
 # Flash Flash Revolution
 A relic of the mid 2000s; the R3 engine has an exe file that works perfectly out of the box using the newer versions of Wine; currently got it running via 6.16. Plays better than osu!mania and Quaver.
 
