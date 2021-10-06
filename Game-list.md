@@ -1,6 +1,8 @@
 # Note
 This list exists purely for documentation of getting Windows games (or attempting to get them) to run on Linux using software such as Wine and other dependencies for performance. This is purely my experience, and I may have tips to get things working in this thread.
 
+As of typing this update (6th of October 2021), EAC and Battleye now have Linux compatibility, but has to be enabled on a game-by-game basis. Xigncode3 also may be working soon; no word on nProtect GameGuard or Vanguard. So do be aware that once it's enabled on certain games, I will try to see if they work.
+
 # If you would like me to test a game, submit an issue ticket and I will check the game out.
 
 # Flash Flash Revolution
