@@ -5,6 +5,7 @@ As of typing this update (6th of October 2021), EAC and Battleye now have Linux 
 
 # If you would like me to test a game, submit an issue ticket and I will check the game out.
 
+# Table of Contents
 - [Flash Flash Revolution](#flash-flash-revolution)
 - [New World](#new-world)
 - [Dark Souls Remastered](#dark-souls-remastered)
