@@ -47,9 +47,6 @@ As of typing this update (6th of October 2021), EAC and Battleye now have Linux 
 - [Old School Runescape](#old-school-runescape)
 - [Current list of games that I'm going to test (will be updated)](#current-list-of-games-that-i-m-going-to-test--will-be-updated-)
 
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
-
 # Flash Flash Revolution
 A relic of the mid 2000s; the R3 engine has an exe file that works perfectly out of the box using the newer versions of Wine; currently got it running via 6.16. Plays better than osu!mania and Quaver.
 
