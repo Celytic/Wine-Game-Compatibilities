@@ -49,7 +49,7 @@ As of typing this update (6th of October 2021), EAC and Battleye now have Linux 
 - [Current list of games that I'm going to test (will be updated)](#current-list-of-games-that-i-m-going-to-test--will-be-updated-)
 
 # Flash Flash Revolution
-A relic of the mid 2000s; the R3 engine has an exe file that works perfectly out of the box using the newer versions of Wine; currently got it running via 6.16. Plays better than osu!mania and Quaver.
+A relic of the mid 2000s; the R3 engine has an exe file that works perfectly out of the box using the newer versions of Wine; currently got it running via 6.16. Plays very well overall, with no hiccups.
 
 # New World
 No idea if EAC will be enabled on this, will update if it is.
