@@ -6,6 +6,12 @@ This list exists purely for documentation of getting Windows games (or attemptin
 # Flash Flash Revolution
 A relic of the mid 2000s; the R3 engine has an exe file that works perfectly out of the box using the newer versions of Wine; currently got it running via 6.16. Plays better than osu!mania and Quaver.
 
+# New World
+No idea if EAC will be enabled on this, will update if it is.
+
+# Dark Souls Remastered
+I'll be testing this later, so this is to be filled.
+
 # Guild Wars 2
 Game plays fine; used Lutris script to install and play. Not a lot of testing, but will do more.
 
