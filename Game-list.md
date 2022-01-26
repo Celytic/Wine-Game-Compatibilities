@@ -8,6 +8,8 @@ As of typing this update (6th of October 2021), EAC and Battleye now have Linux 
 # If you would like me to test a game, submit an issue ticket and I will check the game out.
 
 # Table of Contents
+- [Phantasy Star Online 2 New Genesis](#phantasy-star-online-2-new-genesis)
+- [Battlefield 2042](#battlefield-2042)
 - [Flash Flash Revolution](#flash-flash-revolution)
 - [New World](#new-world)
 - [Dark Souls Remastered](#dark-souls-remastered)
@@ -49,6 +51,14 @@ As of typing this update (6th of October 2021), EAC and Battleye now have Linux 
 - [Metro Exodus Enhanced Edition](#metro-exodus-enhanced-edition)
 - [Old School Runescape](#old-school-runescape)
 - [Current list of games that I'm going to test (will be updated)](#current-list-of-games-that-i-m-going-to-test--will-be-updated-)
+
+# Phantasy Star Online 2 New Genesis
+Western release, not Japanese version. Currently not playable due to xigncode3 as an anticheat, supposedly the character creator works well. Bug SEGA if you want this, because I sure as shit want it.
+
+# Battlefield 2042
+Why? Just, why?
+
+Okay, if you really want to play this, just know that due to some EAC things, this game isn't playable, not that it'd matter given the performance in Windows is worse than my ability to deal with bullshit.
 
 # Flash Flash Revolution
 A relic of the mid 2000s; the R3 engine has an exe file that works perfectly out of the box using the newer versions of Wine; currently got it running via 6.16. Plays very well overall, with no hiccups.
