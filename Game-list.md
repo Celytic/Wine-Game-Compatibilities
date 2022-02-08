@@ -1,5 +1,3 @@
-# Testing is on hold until I have a Linux install on the new main system and am settled in Spain (will arrive 29th of January)
-
 # Note about this document
 This list exists purely for documentation of getting Windows games (or attempting to get them) to run on Linux using software such as Wine and other dependencies for performance. This is purely my experience, and I may have tips to get things working in this thread.
 
