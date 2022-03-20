@@ -8,6 +8,7 @@ As of typing this update (6th of October 2021), EAC and Battleye now have Linux 
 # If you would like me to test a game, submit an issue ticket and I will check the game out.
 
 # Table of Contents
+- [Destiny 2] (#destiny-2)
 - [Phantasy Star Online 2 New Genesis](#phantasy-star-online-2-new-genesis)
 - [Battlefield 2042](#battlefield-2042)
 - [Flash Flash Revolution](#flash-flash-revolution)
@@ -51,6 +52,11 @@ As of typing this update (6th of October 2021), EAC and Battleye now have Linux 
 - [Metro Exodus Enhanced Edition](#metro-exodus-enhanced-edition)
 - [Old School Runescape](#old-school-runescape)
 - [Current list of games that I'm going to test (will be updated)](#current-list-of-games-that-i-m-going-to-test--will-be-updated-)
+
+# Destiny 2
+System: N/A
+
+Bungie has officially confirmed that they will not be working on Linux support for Destiny 2, and that any attempts to play it on Linux (be it Wine, Proton, or anything else) will result in a ban. This will not be tested under any circumstance.
 
 # Phantasy Star Online 2 New Genesis
 System: N/A
