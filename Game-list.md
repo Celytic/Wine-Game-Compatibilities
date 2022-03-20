@@ -53,90 +53,142 @@ As of typing this update (6th of October 2021), EAC and Battleye now have Linux 
 - [Current list of games that I'm going to test (will be updated)](#current-list-of-games-that-i-m-going-to-test--will-be-updated-)
 
 # Phantasy Star Online 2 New Genesis
+System: N/A
+
 Western release, not Japanese version. Currently not playable due to xigncode3 as an anticheat, supposedly the character creator works well. Bug SEGA if you want this, because I sure as shit want it.
 
 # Battlefield 2042
+System: N/A
+
 Why? Just, why?
 
 Okay, if you really want to play this, just know that due to some EAC things, this game isn't playable, not that it'd matter given the performance in Windows is worse than my ability to deal with bullshit.
 
 # Flash Flash Revolution
+System: Yatagarasu
+
 A relic of the mid 2000s; the R3 engine has an exe file that works perfectly out of the box using the newer versions of Wine; currently got it running via 6.16. Plays very well overall, with no hiccups.
 
 # New World
+System: N/A
+
 No idea if EAC will be enabled on this, will update if it is.
 
 # Dark Souls Remastered
+System: TBD
+
 I'll be testing this later, so this is to be filled.
 
 # Guild Wars 2
+System: Yatagarasu
+
 Game plays fine; used Lutris script to install and play. Not a lot of testing, but will do more.
 
 # Swords of Legends Online
-To be filled; game boots and goes to main menu.
+System: Yatagarasu
+
+To be filled; game boots and goes to main menu. Character creation works as well.
 
 # The Greatest Penguin Heist of All Time
+System: Yatagarasu
+
 Penguins. Runs native, game is jank as hell and a lot of fun.
 
 # Titanfall 2
+System: Yatagarasu, Shimarin
+
 Use the Lutris script to install it and let it cache shaders just like Overwatch; game will work fine and play well.
 
 # CastleMiner Z
+System: Yatagarasu
+
 Game seems to run without issues; framerate is capped at 60. Not too much to report, game seems to work okay in offline singleplayer; haven't tested it in multiplayer; may add that later.
 
 # The Elder Scrolls V: Skyrim Special Edition
+System: Yatagarasu
+
 Game will run fine under Proton, but don't expect to get mods working.
 
 # Doom (2016)
+System: Yatagarasu
+
 Game works right out of the box (it's whitelisted with Proton), just go into settings and change the renderer to Vulkan.
 
 # Battlefield 1
+System: Yatagarasu, Shimarin
 This is about the same as Battlefield V, in the sense that you have to play through maps to get DXVK shader cache going, otherwise it works perfectly fine.
 
 # Call of Duty: Black Ops III
+System: Yatagarasu, Shimarin
+
 This game works okay with Proton, however you will need to rename (or delete, your call) any video folders for the game in order to do anything; this also applies for Workshop content. Game runs fairly well.
-EDIT: Supposedly, 
 
 # Project Project Dxxx
+System: Yatagarasu
+
 This is a Project Diva sim, for those who don't know. You will get a "failed to load video" error when selecting a song, which in turn, prevents you from playing any song. Game isn't working on any version of Wine because of this error, and unfortunately, I'm not aware of any fixes at the time of writing this.
 
 # Pandemic Love
+System: Yatagarasu
+
 This is the only VN on this list, since I ended up playing it on stream. Works right out of the box with Proton, no issues.
 
 # Trailmakers
+System: Yatagarasu
+
 I've played a few hours of this with my girlfriend on latest Proton; zero performance issues, runs fine.
 
 # SoulWorker
+System: N/A
+
 Anticheat throws an error using Wine. Yeah, not happening. ;3;
 
 # Genshin Impact
+System: Yatagarasu
+
 Game doesn't work; however installer works fine.
 
 # Overcooked! All You Can Eat
+System: Yatagarasu
+
 This works perfectly out of the box with Proton; played it with my girlfriend for about an hour or so with absolutely no problems. 
 
 # Etterna
-AUR package. That's all there is to this.
+System: N/A
+
+AUR package. That's all there is to this. There is a .deb file that works for it, but I was able to install it after the installer was fixed (installs into /opt)
 
 # Roblox
+System: Yatagarasu
+
 Roblox only works on Wine versions 6.11 or newer, and the best way to configure this is to use a program called Grapejuice, which can be found with a quick search.
 To get the most optimal performance, open the Roblox FFlag Editor, and enable FFlagDebugGraphicsPreferVulkan. This will improve performance significantly.
 
 # Call of Duty: WWII
+System: Yatagarasu
+
 Game is iffy, and isn't really working in Multiplayer the last time I tried it; will need to set stuff up.
 
 # Final Fantasy XIV
+System: Yatagarasu
+
 Game seems to work under XIVLauncher; official launcher seems to not work unless you use the legacy version. 
 
 # osu!
+System: Yatagarasu, Shimarin
+
 Set this up with Lutris and use ThePoon's audio latency patch; if you're having audio distortion, enable Pulseaudio Low Latency in Lutris to fix it. Game works fine; if you're using a tablet, your best bet is to set up OpenTabletDriver, which you can go on their page for that; it isn't anything I contribute to.
 
 Alternatively, you could follow a guide over at https://osu.ppy.sh/community/forums/topics/1248084?n=1 which uses Pipewire and an install script to set up osu! with better latency.
 
 # Overwatch
+System: Yatagarasu, Shimarin
+
 Lutris script installs Battle.net, which has some weird graphical issues I haven't really sorted out. DXVK and FSync used; game installs fine. You have to let the game generate shader cache to get it to run properly; otherwise, game works perfectly fine for me.
 
 # Battlefield V 
+System: Yatagarasu, Shimarin
+
 Usual precaching with Vulkan, even under DX11. Once you play a round on all maps, it should be fine. Alternatively, you can configure DXVK to use async using the following:
 
     DXVK_ASYNC=1
@@ -149,30 +201,48 @@ FSR also works with this as well. Game will be a bit slower than usual until sha
 This was a game I played with my friend Devin (Clickyzz), who passed away in a car accident in May of 2021. I miss you, buddy.
 
 # Path of Exile
+System: Yatagarasu
+
 Runs right out of the box on latest Proton version; nothing else to be said. Vulkan is probably ideal since you'll be translating DX to Vulkan under DX11.
 
 # Cyberpunk 2077
+System: Yatagarasu
+
 Game seems to run fine; seems to be some graphical glitches that I'm currently chocking up to the game being on an HDD instead of an SSD; will move the game over to my SSD to test later. Tested using Proton-GE 6.14
 
 # Puyo Puyo Tetris 2
+System: Yatagarasu
+
 Game runs fine; although I had some issues with text on my first launch. A reboot fixed the issue. Latest Proton.
 
 # uno!
-Single player works if you can get UPlay running; multiplayer will crash your game and freeze the games of other people in the lobby.
+System: Yatagarasu
+
+Single player works if you can get UPlay running; multiplayer will crash your game and freeze the games of other people in the lobby. I've also read that multiplayer works if you play only with other Proton/Wine users.
 
 # Call of Duty: Infinite Warfare
+System: Yatagarasu
+
 I used Glorious Eggroll's Proton 6. Cancel shader caching; you'll be there all fucking night, and it won't do much from my testing. Only have tested Zombies in Spaceland, but it ran fine after the map was loaded in for a minute or so. Still more to test.
 
 # Among Us
+System: N/A
+
 This runs fine. No tweaks needed.
 
 # Call of Duty 4: Modern Warfare
+System: Yatagarasu
+
 Game works fine, however CoD4x servers will error out saying that you need to sign in to Steam, so avoid using this if you can, and manually download the CoD4 1.7 exe file online.
 
 # Call of Duty: World at War
+System: Yatagarasu
+
 Still needs to be tested with Plutonium; supposedly this fixes issues with this game and Black Ops 2.
 
 # Battlefield 4
+System: Yatagarasu, Shimarin
+
 Game works fine using the installer under Lutris for Origin and DXVK setup (using default Lutris-6.1 prefix). You will need to run the following commands to get ping working in game, otherwise you will get kicked from any server with Punkbuster:
 
     sudo setcap cap_net_raw=epi /path/to/lutris/wine-preloader
@@ -188,25 +258,34 @@ To boot the game via Battlelog, you have to spoof your active user agent in your
 I presume this applies to Battlefield Hardline as well, but I haven't gotten around to testing it yet, so can't say for sure.
 
 # Heroes and Generals
-No matter what Proton or Wine version you use, upon starting the game, you will receive an error, stating: "Please start the game through Steam." This isn't anything new, and has been going on for over two years. This isn't working, and I saw that it uses BattleEye, which probably explains this.
+System: N/A
+
+No matter what Proton or Wine version you use, upon starting the game, you will receive an error, stating: "Please start the game through Steam." This isn't anything new, and has been going on for over two years. This isn't working, and I saw that it uses BattleEye, which probably explains this. Will update if this changes.
 
 # A Dance of Fire and Ice
-This game works perfectly out of the box; however UnityModManager will not open in game like it does in Windows if you have that enabled, so please keep that in mind.
+System: Yatagarasu
+
+This game works perfectly out of the box; however UnityModManager will not open in game like it does in Windows if you have that installed fo it, so please keep that in mind.
 
 # Golf It!
+System: Yatagarasu/Shimarin
 This game runs without issues; played with friends with little to no issues. 
 
 # TrackMania Nations Forever
+System: Yatagarasu
 Loaded up game and performance seems to be really good; no complaints on my end. 
 
 # Metro Exodus Enhanced Edition
-Game black screens and you can't get any further; not sure if a Wine dependency issue; for now, use the native Linux port on Steam, considering DLSS won't be integrated via Wine until the new Nvidia driver in the fall.
+System: Yatagarasu
+
+Game black screens and you can't get any further; not sure if a Wine dependency issue; for now, use the native Linux port on Steam, considering DLSS won't be integrated via Wine until the new Nvidia driver (470) is released. Will be retested in the guture.
 
 # Old School Runescape
+System: N/A
+
 Why are you trying to run this over Proton? Just use RuneLite; it'll save you a headache and has some nice QoL features built in.
 
 
 # Current list of games that I'm going to test (will be updated)
-- Spongebob Squarepants: Battle for Bikini Bottom Rehydrated
-- A Hat in Time
-- OMORI
+- Planetside 2
+- Doom Eternal
