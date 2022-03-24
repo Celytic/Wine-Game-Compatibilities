@@ -8,7 +8,7 @@ As of typing this update (6th of October 2021), EAC and Battleye now have Linux 
 # If you would like me to test a game, submit an issue ticket and I will check the game out.
 
 # Table of Contents
-- [Destiny 2] (#destiny-2)
+- [Destiny 2](#destiny-2)
 - [Phantasy Star Online 2 New Genesis](#phantasy-star-online-2-new-genesis)
 - [Battlefield 2042](#battlefield-2042)
 - [Flash Flash Revolution](#flash-flash-revolution)
