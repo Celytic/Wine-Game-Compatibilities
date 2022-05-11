@@ -61,7 +61,7 @@ Bungie has officially confirmed that they will not be working on Linux support f
 # Phantasy Star Online 2 New Genesis
 System: N/A
 
-Western release, not Japanese version. Currently not playable due to xigncode3 as an anticheat, supposedly the character creator works well. Bug SEGA if you want this, because I sure as shit want it.
+Supposedly after the April update, the game works albeit with some massive shader-caching bugs in NGS; base PSO2 seems to be working. Unable to test this at the moment due to moving. nProtect GameGuard seems to be working as well, not sure if this is necessarily a bug or intended.
 
 # Battlefield 2042
 System: N/A
