@@ -1,5 +1,7 @@
 # Note about this document
-This list exists purely for documentation of getting Windows games (or attempting to get them) to run on Linux using software such as Wine and other dependencies for performance. This is purely my experience, and I may have tips to get things working in this thread.,
+This list exists purely for documentation of getting Windows games (or attempting to get them) to run on Linux using software such as Wine and other dependencies for performance. This is purely my experience, and I may have tips to get things working in this thread.
+
+This list does not apply to the Steam Deck; I don't own one nor currently plan on getting one.
 
 If you want to check what hardware I use to test, please check my other repository for the specs used as well as my software setup.
 
@@ -56,7 +58,7 @@ As of typing this update (6th of October 2021), EAC and Battleye now have Linux 
 # Destiny 2
 System: N/A
 
-Bungie has officially confirmed that they will not be working on Linux support for Destiny 2, and that any attempts to play it on Linux (be it Wine, Proton, or anything else) will result in a ban. This will not be tested under any circumstance.
+Bungie has officially confirmed that they will not be working on Linux support for Destiny 2, and that any attempts to play it on Linux (be it Wine, Proton, or anything else) will result in a ban. No testing required.
 
 # Phantasy Star Online 2 New Genesis
 System: N/A
@@ -66,9 +68,7 @@ Supposedly after the April update, the game works albeit with some massive shade
 # Battlefield 2042
 System: N/A
 
-Why? Just, why?
-
-Okay, if you really want to play this, just know that due to some EAC things, this game isn't playable, not that it'd matter given the performance in Windows is worse than my ability to deal with bullshit.
+DICE has not enabled Easy AntiCheat support for Battlefield 2042, so you won't be able to join into any matches, as this is online only. Due to the slow support (and often radio-silence communication) of the developers, I wouldn't expect this to be working anytime soon.
 
 # Flash Flash Revolution
 System: Yatagarasu
@@ -78,7 +78,7 @@ A relic of the mid 2000s; the R3 engine has an exe file that works perfectly out
 # New World
 System: N/A
 
-No idea if EAC will be enabled on this, will update if it is.
+According to ProtonDB reports, it seems to be working with performance issues and some tweaks. I'm unable to test this right now.
 
 # Dark Souls Remastered
 System: TBD
@@ -113,7 +113,7 @@ Game seems to run without issues; framerate is capped at 60. Not too much to rep
 # The Elder Scrolls V: Skyrim Special Edition
 System: Yatagarasu
 
-Game will run fine under Proton, but don't expect to get mods working.
+Game will run fine under Proton, modding caused character to be stuck in the carriage at the start of the game. Further testing needed.
 
 # Doom (2016)
 System: Yatagarasu
@@ -147,7 +147,7 @@ I've played a few hours of this with my girlfriend on latest Proton; zero perfor
 # SoulWorker
 System: N/A
 
-Anticheat throws an error using Wine. Yeah, not happening. ;3;
+Anticheat threw error while testing.
 
 # Genshin Impact
 System: Yatagarasu
@@ -164,6 +164,8 @@ System: N/A
 
 AUR package. That's all there is to this. There is a .deb file that works for it, but I was able to install it after the installer was fixed (installs into /opt)
 
+On other distros that don't have repos for the game, you will most likely have to manually compile the game yourself.
+
 # Roblox
 System: Yatagarasu
 
@@ -173,7 +175,7 @@ To get the most optimal performance, open the Roblox FFlag Editor, and enable FF
 # Call of Duty: WWII
 System: Yatagarasu
 
-Game is iffy, and isn't really working in Multiplayer the last time I tried it; will need to set stuff up.
+Multiplayer tended to lag and freeze a lot during testing. Future testing needed.
 
 # Final Fantasy XIV
 System: Yatagarasu
@@ -190,7 +192,7 @@ Alternatively, you could follow a guide over at https://osu.ppy.sh/community/for
 # Overwatch
 System: Yatagarasu, Shimarin
 
-Lutris script installs Battle.net, which has some weird graphical issues I haven't really sorted out. DXVK and FSync used; game installs fine. You have to let the game generate shader cache to get it to run properly; otherwise, game works perfectly fine for me.
+Lutris script installs Battle.net, which has some weird graphical issues I haven't really sorted out. DXVK and FSync used; game installs fine. You have to let the game generate shader cache at the main menu to get it to run properly; otherwise, game works perfectly fine for me.
 
 # Battlefield V 
 System: Yatagarasu, Shimarin
@@ -198,13 +200,12 @@ System: Yatagarasu, Shimarin
 Usual precaching with Vulkan, even under DX11. Once you play a round on all maps, it should be fine. Alternatively, you can configure DXVK to use async using the following:
 
     DXVK_ASYNC=1
+   
 Alternatively, if you're using an Nvidia GPU, adding this should help with it a bit as well.
- 
+
     __GL_SHADER_DISK_CACHE_SKIP_CLEANUP=1
     
 FSR also works with this as well. Game will be a bit slower than usual until shaders are finished caching (usually play a round or two on each map), and then you should be okay.
-
-This was a game I played with my friend Devin (Clickyzz), who passed away in a car accident in May of 2021. I miss you, buddy.
 
 # Path of Exile
 System: Yatagarasu
@@ -224,7 +225,7 @@ Game runs fine; although I had some issues with text on my first launch. A reboo
 # uno!
 System: Yatagarasu
 
-Single player works if you can get UPlay running; multiplayer will crash your game and freeze the games of other people in the lobby. I've also read that multiplayer works if you play only with other Proton/Wine users.
+Single player works if you can get UPlay running; multiplayer will crash your game and freeze the games of other people in the lobby. I've also read that multiplayer works if you play only with other Proton/Wine users, but have yet to confirm this.
 
 # Call of Duty: Infinite Warfare
 System: Yatagarasu
@@ -289,7 +290,7 @@ Game black screens and you can't get any further; not sure if a Wine dependency 
 # Old School Runescape
 System: N/A
 
-Why are you trying to run this over Proton? Just use RuneLite; it'll save you a headache and has some nice QoL features built in.
+If you're going to be playing this, use the RuneLite client, as not only is it native, but it also has some quality-of-life features (plugins are of note) and the developers don't seem to mind.
 
 
 # Current list of games that I'm going to test (will be updated)
