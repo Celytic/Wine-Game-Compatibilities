@@ -61,9 +61,11 @@ System: N/A
 Bungie has officially confirmed that they will not be working on Linux support for Destiny 2, and that any attempts to play it on Linux (be it Wine, Proton, or anything else) will result in a ban. No testing required.
 
 # Phantasy Star Online 2 New Genesis
-System: N/A
+System: Kirisame
 
-Supposedly after the April update, the game works albeit with some massive shader-caching bugs in NGS; base PSO2 seems to be working. Unable to test this at the moment due to moving. nProtect GameGuard seems to be working as well, not sure if this is necessarily a bug or intended.
+After an update in April 2022, nProtect GameGuard no longer prevents you from logging in, but there is stuttering caused by case-sensitive directories being used in Linux. To fix this, use the following command on your Phantasy Star Online 2 game directory:
+    
+    chattr -R +F
 
 # Battlefield 2042
 System: N/A
