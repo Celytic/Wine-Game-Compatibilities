@@ -62,10 +62,13 @@ Bungie has officially confirmed that they will not be working on Linux support f
 
 # Phantasy Star Online 2 New Genesis
 System: Kirisame
-
-After an update in April 2022, nProtect GameGuard no longer prevents you from logging in, but there is stuttering caused by case-sensitive directories being used in Linux. To fix this, use the following command on your Phantasy Star Online 2 game directory:
+Using Proton-GE 7-24
+**Global version**
+After an update in April 2022, nProtect GameGuard no longer prevents you from logging in, but there is stuttering caused by case-sensitive directories being used in Linux. To fix this, you will need a partition with casefolding, but then this fix should work. Use the following command on your Phantasy Star Online 2 game directory:
     
     chattr -R +F
+
+There *is* a patch that was made for Proton, but I haven't gotten that to work for myself so far, so that's currently not something I can assist with.
 
 # Battlefield 2042
 System: N/A
