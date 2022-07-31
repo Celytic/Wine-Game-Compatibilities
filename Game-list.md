@@ -68,7 +68,7 @@ After an update in April 2022, nProtect GameGuard no longer prevents you from lo
     
     chattr -R +F
 
-There *is* a patch that was made for Proton, but I haven't gotten that to work for myself so far, so that's currently not something I can assist with.
+There *is* a patch that was made for Proton, but I haven't gotten that to work for myself so far, so that's currently not something I can assist with. Movie concerts **will** crash the game, so stay out of Aelio/Retem/Kvaris during movie concerts for the time being.
 
 # Battlefield 2042
 System: N/A
